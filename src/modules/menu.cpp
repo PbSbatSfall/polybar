@@ -126,7 +126,7 @@ namespace modules {
        * external source
        */
       if (m_level == (int) level) {
-        m_level = -1;
+      // m_level = -1;
         broadcast();
       }
 
